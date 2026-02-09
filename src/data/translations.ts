@@ -35,15 +35,22 @@ export const translations = {
       stack: "Stack",
     },
     contactSection: {
-      badge: "Get in Touch",
-      title: "Want to collaborate?",
+      badge: "Available",
+      title: "Ready to build",
+      titleHighlight: "something great?",
+      description:
+        "I help startups and scale-ups turn ambitious ideas into reality. With 6+ years of experience in data engineering, ML, and backend systems, I bring proven expertise in building scalable solutions that deliver results.",
+      emailButton: "Get in Touch",
+      linkedinButton: "Connect",
+      availability: "Available Now",
+      experience: "6+ Years Freelance",
     },
     professionalInfo: {
       available: "Available",
       location: "Madrid, Spain",
       remoteLabel: "Remote",
-      remote: "(monthly travel to France)",
-      rate: "TJM: €500-650",
+      remote: "",
+      rate: "Day Rate: €500-650",
     },
     summary:
       "Data Scientist & Backend Engineer with 6 years of freelance experience specializing in Python, Data Engineering, Machine Learning, and backend architecture. Expert in designing scalable APIs, data pipelines, and cloud deployment (AWS). Passionate about performance optimization and building robust data-driven solutions. I've co-founded multiple startups and led technical teams, focusing on AI-powered products and data infrastructure at scale.",
@@ -225,14 +232,21 @@ export const translations = {
       stack: "Stack",
     },
     contactSection: {
-      badge: "Contactez-moi",
-      title: "Envie de collaborer ?",
+      badge: "Disponible",
+      title: "Prêt à",
+      titleHighlight: "innover ?",
+      description:
+        "J'aide les startups et scale-ups à transformer leurs idées ambitieuses en réalité. Avec plus de 6 ans d'expérience en data engineering, ML et systèmes backend, j'apporte une expertise éprouvée dans la création de solutions scalables qui livrent des résultats.",
+      emailButton: "Me Contacter",
+      linkedinButton: "Connecter",
+      availability: "Disponible immédiatement",
+      experience: "6+ ans de freelance",
     },
     professionalInfo: {
       available: "Disponible",
       location: "Madrid, Espagne",
       remoteLabel: "Télétravail",
-      remote: "(déplacements mensuels en France)",
+      remote: "(déplacements mensuels possibles)",
       rate: "TJM : 500-650€",
     },
     summary:
@@ -410,14 +424,21 @@ export const translations = {
       stack: "Stack",
     },
     contactSection: {
-      badge: "Contáctame",
-      title: "¿Quieres colaborar?",
+      badge: "Disponible",
+      title: "Listo para construir",
+      titleHighlight: "algo grandioso?",
+      description:
+        "Ayudo a startups y scale-ups a convertir ideas ambiciosas en realidad. Con más de 6 años de experiencia en data engineering, ML y sistemas backend, aporto experiencia comprobada en la construcción de soluciones escalables que generan resultados.",
+      emailButton: "Contactar",
+      linkedinButton: "Conectar",
+      availability: "Disponible ahora",
+      experience: "6+ años freelance",
     },
     professionalInfo: {
       available: "Disponible",
       location: "Madrid, España",
       remoteLabel: "Remoto",
-      remote: "(viajes mensuales a Francia)",
+      remote: "",
       rate: "TJM: €500-650",
     },
     summary:

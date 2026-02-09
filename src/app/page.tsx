@@ -110,21 +110,21 @@ export default function Page() {
                 <h3 className="text-sm font-semibold text-muted-foreground mb-3">
                   Other Experience
                 </h3>
-                <div className="space-y-1.5">
+                <div className="space-y-2.5">
                   {DATA.otherWork.map((exp, index) => (
                     <div
                       key={`${exp.company}-${index}`}
-                      className="grid grid-cols-[1fr_auto] gap-2 text-sm text-muted-foreground"
+                      className="flex flex-col gap-0.5 text-sm text-muted-foreground"
                     >
-                      <div className="flex gap-2">
-                        <span className="font-medium text-foreground">
-                          {exp.title}
-                        </span>
-                        <span>•</span>
-                        <span>{exp.company}</span>
+                      <div className="font-medium text-foreground">
+                        {exp.title}
                       </div>
-                      <div className="text-xs tabular-nums text-right">
-                        {exp.start} - {exp.end}
+                      <div className="grid grid-cols-[1fr_auto] gap-2 items-center sm:flex sm:gap-2">
+                        <span>{exp.company}</span>
+                        <span className="hidden sm:inline text-muted-foreground/50">•</span>
+                        <span className="text-xs tabular-nums text-right sm:text-left">
+                          {exp.start} - {exp.end}
+                        </span>
                       </div>
                     </div>
                   ))}

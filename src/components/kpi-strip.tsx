@@ -67,7 +67,7 @@ export default function KPIStrip({ delay = 0 }: { delay?: number }) {
 
   const kpis = [
     {
-      value: 7,
+      value: 6,
       suffix: "+",
       prefix: "",
       label: t.kpis.experience,
@@ -100,7 +100,7 @@ export default function KPIStrip({ delay = 0 }: { delay?: number }) {
 
   return (
     <BlurFade delay={delay}>
-      <div className="flex flex-row items-center gap-2 border rounded-lg overflow-hidden bg-background/80 backdrop-blur-sm py-3 px-2 w-full lg:flex-col lg:p-2 lg:w-[100px]">
+      <div className="hidden md:flex md:flex-row md:items-center md:gap-2 border rounded-lg overflow-hidden bg-background/80 backdrop-blur-sm md:py-3 md:px-2 md:w-full lg:flex-col lg:p-2 lg:w-[100px]">
         {kpis.map((kpi, i) => (
           <div key={kpi.label} className="flex-1 lg:w-full lg:flex-none">
             <motion.div
@@ -114,7 +114,7 @@ export default function KPIStrip({ delay = 0 }: { delay?: number }) {
               transition={{ duration: 0.2 }}
             >
               <motion.span
-                className="text-lg sm:text-xl font-semibold tracking-tight text-emerald-700 lg:text-sm"
+                className="text-lg font-semibold tracking-tight text-emerald-700 lg:text-sm"
                 variants={{
                   initial: {
                     scale: 1,
@@ -147,7 +147,7 @@ export default function KPIStrip({ delay = 0 }: { delay?: number }) {
                 )}
               </motion.span>
               <motion.span
-                className="text-[8px] sm:text-[9px] text-muted-foreground font-medium text-center leading-tight max-w-full lg:text-[10px]"
+                className="text-[9px] text-muted-foreground font-medium text-center leading-tight max-w-full lg:text-[10px]"
                 variants={{
                   initial: {},
                   hover: { color: "rgb(255, 255, 255)" },
