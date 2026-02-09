@@ -57,8 +57,8 @@ export function ProjectCard({
   return (
     <div
       className={cn(
-        "flex flex-col h-full border border-border rounded-xl overflow-hidden hover:ring-2 cursor-pointer hover:ring-muted transition-all duration-200",
-        className
+        "flex flex-col h-full border border-border rounded-xl overflow-hidden hover:ring-2 cursor-pointer hover:ring-muted transition-all duration-200 hover:scale-103",
+        className,
       )}
     >
       <div className="relative shrink-0">
@@ -69,14 +69,22 @@ export function ProjectCard({
           className="block"
         >
           {video ? (
-            <video
-              src={video}
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-48 object-cover"
-            />
+            video.endsWith(".gif") ? (
+              <img
+                src={video}
+                alt={title}
+                className="w-full h-48 object-cover"
+              />
+            ) : (
+              <video
+                src={video}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-48 object-cover"
+              />
+            )
           ) : image ? (
             <ProjectImage src={image} alt={title} />
           ) : (
@@ -129,7 +137,7 @@ export function ProjectCard({
             {tags.map((tag) => (
               <Badge
                 key={tag}
-                className="text-[11px] font-medium border border-border h-6 w-fit px-2"
+                className="text-[11px] font-medium border border-sky-500 text-sky-500 bg-sky-500/2 h-6 w-fit px-2"
                 variant="outline"
               >
                 {tag}
