@@ -60,7 +60,7 @@ export const translations = {
         title: "Co-founder & CTO",
         start: "April 2025",
         context:
-          "Complete SaaS platform automating skills portfolio generation for job seekers using AI-powered CV analysis",
+          "Complete SaaS platform automating skills portfolio generation for job seekers using AI-powered CV analysis. Created this project from scratch by myself.",
         responsibilities: [
           "Architected FastAPI backend with AI agents for CV parsing, skills extraction, and scoring",
           "Built robust ETL pipeline for large-scale profile data processing and enrichment",
@@ -72,6 +72,7 @@ export const translations = {
           "Automated portfolio generation reducing manual work by 90%",
           "Processing 1000+ CVs per day with high accuracy",
           "Achieved 95% skills extraction accuracy using custom LLM prompts",
+          "30+ daily active users",
         ],
       },
       {
@@ -79,7 +80,7 @@ export const translations = {
         start: "September 2024",
         end: "March 2025",
         context:
-          "CRM platform helping YouTube creators understand their audience through AI-powered analytics and insights",
+          "CRM platform helping YouTube creators understand their audience through AI-powered analytics and insights. Created this project from scratch by myself.",
         responsibilities: [
           "Designed and developed backend architecture for YouTube analytics platform",
           "Built ETL pipeline for real-time YouTube data ingestion (comments, metrics) via API",
@@ -257,7 +258,7 @@ export const translations = {
         title: "Co-fondateur & CTO",
         start: "Avril 2025",
         context:
-          "Plateforme SaaS complète automatisant la génération de portfolios de compétences pour les chercheurs d'emploi via l'analyse de CV par IA",
+          "Plateforme SaaS complète automatisant la génération de portfolios de compétences pour les chercheurs d'emploi via l'analyse de CV par IA. Projet créé de zéro par moi-même.",
         responsibilities: [
           "Architecture backend FastAPI avec agents IA pour parsing de CVs, extraction de compétences et scoring",
           "Construction d'un pipeline ETL robuste pour traitement et enrichissement de données profils à grande échelle",
@@ -269,6 +270,7 @@ export const translations = {
           "Automatisation de la génération de portfolios réduisant le travail manuel de 90%",
           "Traitement de 1000+ CVs par jour avec une haute précision",
           "Atteinte de 95% de précision d'extraction de compétences avec des prompts LLM personnalisés",
+          "30+ utilisateurs actifs quotidiens",
         ],
       },
       {
@@ -276,7 +278,7 @@ export const translations = {
         start: "Septembre 2024",
         end: "Mars 2025",
         context:
-          "Plateforme CRM aidant les créateurs YouTube à comprendre leur audience grâce à l'analyse et aux insights alimentés par l'IA",
+          "Plateforme CRM aidant les créateurs YouTube à comprendre leur audience grâce à l'analyse et aux insights alimentés par l'IA. Projet créé de zéro par moi-même.",
         responsibilities: [
           "Conception et développement de l'architecture backend pour plateforme d'analytics YouTube",
           "Construction d'un pipeline ETL pour ingestion temps-réel de données YouTube (commentaires, métriques) via API",
@@ -449,7 +451,7 @@ export const translations = {
         title: "Co-fundador & CTO",
         start: "Abril 2025",
         context:
-          "Plataforma SaaS completa que automatiza la generación de portfolios de competencias para buscadores de empleo mediante análisis de CV con IA",
+          "Plataforma SaaS completa que automatiza la generación de portfolios de competencias para buscadores de empleo mediante análisis de CV con IA. Proyecto creado desde cero por mí mismo.",
         responsibilities: [
           "Arquitectura de backend FastAPI con agentes IA para parsing de CVs, extracción de competencias y scoring",
           "Construcción de pipeline ETL robusto para procesamiento y enriquecimiento de datos de perfiles a gran escala",
@@ -461,6 +463,7 @@ export const translations = {
           "Automatización de generación de portfolios reduciendo el trabajo manual en 90%",
           "Procesamiento de 1000+ CVs por día con alta precisión",
           "Logro de 95% de precisión en extracción de competencias usando prompts LLM personalizados",
+          "30+ usuarios activos diarios",
         ],
       },
       {
@@ -468,7 +471,7 @@ export const translations = {
         start: "Septiembre 2024",
         end: "Marzo 2025",
         context:
-          "Plataforma CRM que ayuda a creadores de YouTube a entender su audiencia mediante análisis e insights impulsados por IA",
+          "Plataforma CRM que ayuda a creadores de YouTube a entender su audiencia mediante análisis e insights impulsados por IA. Proyecto creado desde cero por mí mismo.",
         responsibilities: [
           "Diseño y desarrollo de arquitectura backend para plataforma de analytics de YouTube",
           "Construcción de pipeline ETL para ingesta en tiempo real de datos de YouTube (comentarios, métricas) vía API",
