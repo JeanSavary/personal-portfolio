@@ -82,6 +82,7 @@ export const DATA = {
         "Automated portfolio generation reducing manual work by 90%",
         "Processing 1000+ CVs per day with high accuracy",
         "Achieved 95% skills extraction accuracy using custom LLM prompts",
+        "30+ daily active users",
       ],
       stack:
         "Python, FastAPI, PostgreSQL, Redis, Celery, Airflow, AWS (S3, Lambda, EC2), Docker, LLM APIs, Supabase",
