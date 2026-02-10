@@ -34,10 +34,10 @@ export default function ProfessionalInfoSection({
         <span className="hover:underline hover:text-foreground hover:cursor-pointer">
           {t.professionalInfo.remoteLabel} {t.professionalInfo.remote}
         </span>
-        <span className="text-muted-foreground/80">•</span>
-        <span className="hover:underline hover:text-foreground hover:cursor-pointer">
+        {/* <span className="text-muted-foreground/80">•</span> */}
+        {/* <span className="hover:underline hover:text-foreground hover:cursor-pointer">
           {t.professionalInfo.rate}
-        </span>
+        </span> */}
       </div>
     </BlurFade>
   );
